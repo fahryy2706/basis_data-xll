@@ -52,7 +52,7 @@ Jabatan ENUM('Manager', 'Supervisor', 'Staff'),
     - *NOT NULL*: Menandakan bahwa kolom ini harus diisi; nilai kosong (NULL) tidak diperbolehkan.
 
 *HASIL :*
-![](gambar/desc.png)
+![](gambar/pai2.png)
 
 # SELECT
 **Penjelasan :** Perintah `SELECT` dalam MySQL digunakan untuk mengambil data dari tabel dalam database. Ini adalah perintah dasar dan paling sering digunakan dalam SQL untuk menampilkan data. Anda bisa menggunakan `SELECT` untuk memilih kolom tertentu, menggabungkan tabel, melakukan filter data, dan banyak lagi.
@@ -64,7 +64,7 @@ select * from pegawai;
 
 **Hasil :**
 
-![](gambar/select.png)
+![](gambar/pai1.png)
 
 **Kesimpulan :**
 Perintah `SELECT * FROM pegawai;` berguna untuk melihat seluruh data dalam tabel `pegawai` tanpa batasan atau filter. Ini adalah cara cepat untuk mendapatkan gambaran lengkap tentang data yang ada di tabel, tetapi untuk analisis yang lebih spesifik atau untuk meningkatkan performa query, sebaiknya Anda memilih kolom tertentu dan menerapkan kondisi yang sesuai.
